@@ -11,7 +11,7 @@ from owners.serializers import OwnerSerializer
 
 
 
-//Model View para los endpoints de owner.
+#Model View para los endpoints de owner.
 class OwnerViewSet(viewsets.ModelViewSet):
     queryset = Owner.objects.all()
     serializer_class = OwnerSerializer
